@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Landing Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Styles -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+	
+</head>
+<body>
+
+	<div class="container mt-5" id="online-pay">
+		<div class="register-top">
+			<h6 class="text-uppercase">Register mobile number with property id door no</h6>
+		</div>
+		
+		<form style="padding: 0 12px;">
+		  <div class="row p-3 register-bottom border-top-0">
+			<div class="col-md-4 col-sm-12">
+				<label for="lab1">Search By</label>
+			  	<select class="form-select" id="sel1" name="sellist1">
+					<option>DOOR NO/PID NO/SURVEY NO</option>
+					<option>DOOR NO/PID NO/SURVEY NO2</option>
+					<option>DOOR NO/PID NO/SURVEY NO3</option>
+					<option>DOOR NO/PID NO/SURVEY NO4</option>
+				</select>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<label for="lab2">Enter Door No.</label>
+			    <input type="text" class="form-control"  name="pswd">
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<label for="lab3">Mobile Number</label>
+			    <input type="number" class="form-control"  name="pswd">
+			</div>
+			<div class="col-md-12 col-sm-12 mt-3 reg-button">
+				<button type="submit" class="btn btn-primary text-uppercase rounded-0" style="background-color: #FFC312;border: medium none;">Register</button>
+			</div>
+			
+		  </div>
+		</form>
+	</div>
+
+	<div class="container mt-5" style="border: 1px solid #ccc;box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);">
+		<div class="reg-button">
+			<button type="submit" class="btn  m-3 border rounded-pill border-primary" style="padding: 10px 80px;">Search Property</button>
+		</div>
+
+		<form class="mt-2">
+			<div class="row" style="background-color: #303691;color: #fff;padding: 30px 15px">
+				<h6 class="mb-3 text-uppercase">Mobile Number Verification</h6>
+				<div class="col-md-8">
+					<label for="lab1">Enter Mobile Number</label>
+					<input type="number" class="form-control"  name="email">
+				</div>
+				<div class="col-md-3 offset-md-1">
+					<br/><button type="submit" class="btn btn-primary text-uppercase rounded-0" style="width: 60%;background-color: #FFC312;border: medium none;">Submit</button>
+		
+				</div>
+				<div class="col-md-8 mt-3">
+					<label for="lab1">Enter OTP</label>
+					<input type="password" class="form-control"  name="email">
+				</div>
+				<div class="col-md-3 offset-md-1 mt-3">
+					<br/>	<button type="submit" class="btn btn-primary text-uppercase rounded-0" style="width: 60%;background-color: #FFC312;border: medium none;">Verify</button>
+		
+				</div>
+				
+				
+			</div>
+		</form>
+	</div>
+	
+	<div class="container mt-5" style="border: 1px solid #ccc;box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);">
+		<div class="row">
+			<div class="col-md-6">
+				<button type="submit" class="btn  m-3 border rounded-pill border-primary" style="color:#303691; padding: 10px 80px;">Search Property</button>
+			</div>
+			<div class="col-md-6 text-end">
+				<button type="submit" class="btn  m-3 border rounded-pill border-primary" style="color:#303691;padding: 10px 80px;">Register Mobile No with Property ID / Door No</button>
+			</div>
+		</div>
+
+		<form style="padding: 0 12px;">
+			<div class="row p-2">
+				<div class="col-md-3 col-sm-12">
+					<label for="lab1">Select Your Ward</label>
+					<select class="form-select" id="sel1" name="sellist1">
+						<option>Ward 1</option>
+						<option>Ward 2</option>
+						<option>Ward 3</option>
+						<option>Ward 4</option>
+					</select>
+						<!-- <input type="text" class="form-control"  name="email"> -->
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<label for="lab2">Search By</label>
+					<select class="form-select" id="sel12" name="sellist2">
+						<option>DOOR No/PID NO</option>
+						<option>DOOR No/PID NO2</option>
+						<option>DOOR No/PID NO3</option>
+						<option>DOOR No/PID NO4</option>
+					</select>
+					<!-- <input type="text" class="form-control"  name="pswd"> -->
+				</div>
+				<div class="col-md-3 col-sm-12">
+					<label for="lab3">Enter Door No.</label>
+					<input type="text" class="form-control"  name="pswd">
+				</div>		 
+			</div>
+		</form>
+
+		<div class="row mt-3 mb-3">	
+			<div class="col-md-12 pay-table">
+				<table class="table table-borderless text-uppercase" style="width: 98%;margin: 0 auto;">
+					<thead class='bg-dark text-white text-uppercase' style='border: 5px solid #000;font-size: 13px;'>
+						<tr>
+							<th>Property ID</th>
+							<th>Owner Name</th>
+							<th>Door No.</th>
+							<th colspan='3'>Property Address</th>
+						</tr>
+					</thead>
+					<tbody>					
+						<tr style="border: 5px solid #303691;vertical-align: middle;">
+							<td>15012338788998</td>
+							<td>Beepathumma</td>
+							<td>1-210/2A</td>
+							<td>Uppinangady, Near Bus Stand</td>
+							<td><button type="submit" class="btn rounded-0 text-uppercase" style="background-color:#303691;color: #fff;padding: 5px 15px;">View Details</button></td>
+							<td><button type="submit" class="btn rounded-0 text-uppercase" style="background-color:#303691;color: #fff;padding: 5px 15px;">Pay Online</button></td>
+						</tr>	
+					</tbody>
+				</table>
+			
+			</div>		
+		</div>
+
+	</div>
+</body>
+</html>

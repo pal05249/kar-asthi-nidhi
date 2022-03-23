@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Landing Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+        
+</head> 
+<body>
+    <div class="container-fluid conya">
+
+        <div class="side-left">
+            <div class="img-element" id="hampi">
+                <img src="images/hampi.jpg" alt="hampi">
+
+            </div>
+            <div class="img-element" id="panchayat1">
+                <img src="images/panchayat.jpg" alt="panchayat1">
+
+            </div>
+            <div class="img-element" id="beach">
+                <img src="images/beach.jpg" alt="beach">
+
+            </div>
+            <div class="img-element" id="hill">
+            <img src="images/hill.jpg" alt="hill">
+
+            </div>
+            <div class="img-element" id="mysore">
+                <img src="images/mysore.jpg" alt="mysore">
+    
+                </div>
+            <div class="img-element" id="history">
+            <img src="images/history.jpg" alt="history">
+
+            </div>
+            <div class="vidhanasoudha" id="vidhanasoudha">
+                <img src="images/vidhanasawda.jpg" alt="vidhanasoudha">
+    
+                </div>
+            <div class="img-element" id="jog">
+            <img src="images/jog.jpg" alt="jog">
+
+            </div>
+            <div id="karnataka">
+            <img src="images/karnataka.jpg" alt="karnataka">
+
+            </div>
+            
+        </div>
+        <div class='card'>
+            <div class="side-right">
+    
+                <img class="img-fluid"  style="padding-top:75px ;" src="images/logo.jpg" alt="karnatakaGovt-Logo">
+                <h1 class="title-tax">Property Tax Calculation</h1>
+                <p class="login-box-msg">Login to your account</p>
+    
+                <form action="onlinepay.html">
+                    <div class="input-group mb-3">
+                        <!-- <label for="exampleFormControlSelect1">Select Panchayath</label> -->
+                        <select class="form-select" id="sel1" name="sellist1">
+                            <option>Select District</option>
+                            <!-- <option>Mangaluru</option>
+                            <option>Udupi</option>
+                            <option>Karwar</option> -->
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <!-- <label for="">Username</label> -->
+                        <select class="form-select" id="sel2" name="sellist2">
+                            <option>Select Taluk</option>
+                            <!-- <option>Karkala</option>
+                            <option>Puttur</option>
+                            <option>Sullia</option> -->
+                          </select>
+                          <!-- <div class="input-group-append">
+                            <div class="input-group-text">
+                                <span class="fas fa-user"></span>
+                            </div>
+                        </div>
+                        @error('user_name')
+                        <span class="invalid-feedback" role="alert">
+                            <strong style="color: #9a1f2b !important">{{ $message }}</strong>
+                        </span>
+                        @enderror -->
+                    </div>
+                    <div class="input-group mb-3">
+                        <!-- <label for="">Password</label> -->
+                        <select class="form-select" id="sel3" name="sellist3">
+                            <option>Select Panchayat</option>
+                            <!-- <option>2</option>
+                            <option>3</option>
+                            <option>4</option> -->
+                          </select>
+                          <!-- <div class="input-group-append">
+                            <div class="input-group-text" style="background-color: white !important">
+                                <i class="fa fa-eye" id="eye" style="color: grey !important; background-color:white !important" onclick="togglePass()"></i>
+                            </div>
+                            <div class="input-group-prepend">
+                                <div class="input-group-text"><span class="fas fa-lock"></span></div>
+    
+                            </div>
+                        </div>
+                        @error('password')
+                        <span class="invalid-feedback" role="alert">
+                            <strong style="color: #9a1f2b !important">{{ $message }}</strong>
+                        </span>
+                        @enderror -->
+                    </div>
+                    <div class="form-row row skjh">
+    
+                        <!-- <div class="col-7 left no-padding">
+                            <input type="checkbox" name="remember" id="remember" {{ old('remember') ? 'checked' : '' }}>
+                            <label for="remember">
+                                {{ __('Remember Me') }}
+                            </label>
+                        </div> -->
+    
+                        <!-- /.col -->
+                        <!-- @if (Route::has('password.request')) -->
+                        <!-- <div class="col-5">
+                            <a href="{{ route('password.request') }}">{{ __('Forgot Your Password?') }}</a>
+                        </div> -->
+                        <!-- @endif -->
+    
+                        <!-- /.col -->
+    
+                    </div>
+                    <!-- @if ($alert = Session::get('alert'))
+                    <div class="alert alert-warning">
+                        {{ $alert }}
+                    </div>
+                    @endif -->
+    
+                    <!-- < ? php -->
+                    <!-- // include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
+    
+                    // $securimage = new Securimage();
+    
+                    // if ($securimage->check($_POST['captcha_code']) == false) {
+    
+    
+                    //     echo "The security code entered was incorrect.<br /><br />";
+    
+                    //     echo "Please go <a href='javascript:history.go(-1)'>back</a> and try again.";
+    
+                    //     exit;
+                    // } -->
+    
+    
+                    <!-- ?> -->
+    
+                    <!-- <img id="captcha" src="/securimage/securimage_show.php" alt="CAPTCHA Image" />
+                    <div class="m-0 p-0">
+                        <em>Calculate the captcha</em>
+                    </div>
+                    <input required type="text" style="text-align: center;" name="captcha_code" size="10" maxlength="6" /> -->
+    
+                    <!-- <a href="#" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false"><i class="fa">&#xf021; reCaptcha</i></a> -->
+    
+                    <div class="form-row dfr">
+                        <a href="#" target="_blank" id="goBtn" class="btn btn-sm btn-primary">Submit</a>
+                    </div>
+    
+                </form>
+    
+    
+    
+    
+    
+            </div>
+        </div>
+        <!-- /.login-card-body -->
+    
+    </div>
+</body>
+<script src="fetchpanchayath.js"></script>
+</html>
